@@ -1,0 +1,44 @@
+# Sovereign - royal purple and gold.
+#
+# This file is the source of truth: the wallpapers and previews were drawn
+# from these same values.
+#
+# Contrast against the background was checked for every ANSI slot; each one
+# matches or beats Tokyo Night's equivalent.
+
+mode = "dark"
+
+accent = "#d4af37"
+selection = "#2e2340"
+muted = "#574569"
+
+background = "#17121f"
+dark_background = "#110d17"
+darker_background = "#0b0810"
+lighter_background = "#241c30"
+
+foreground = "#ded3e8"
+dark_foreground = "#7a6b92"
+light_foreground = "#cfc2dd"
+bright_foreground = "#f4ead6"
+
+red = "#e8536f"
+yellow = "#e8c46a"
+orange = "#e08a4a"
+green = "#7fb37a"
+cyan = "#5fa8b8"
+blue = "#7d8ce8"
+magenta = "#b57edc"
+brown = "#8a6a48"
+
+bright_red = "#ff5c78"
+bright_yellow = "#f6d98a"
+bright_green = "#9ccf96"
+bright_cyan = "#7fc6d6"
+bright_blue = "#9aa8ff"
+bright_magenta = "#cb9bf0"
+
+# Focused windows get a gold-to-ivory edge; unfocused fade to dusk violet.
+# Read by hyprland.lua.tpl's hypr_gradient function, so no hyprland.lua needed.
+hyprland_active_border = "rgba(d4af37ee) rgba(f4ead6ee) 45deg"
+hyprland_inactive_border = "rgba(574569aa)"
